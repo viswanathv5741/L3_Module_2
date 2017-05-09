@@ -69,7 +69,5 @@ public class IntroToFileIO {
 			String fileName = jfc.getSelectedFile().getAbsolutePath();
 			System.out.println(fileName);
 		}
-		
-		System.exit(0);
 	}
 }
