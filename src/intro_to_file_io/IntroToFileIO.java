@@ -49,6 +49,12 @@ public class IntroToFileIO {
 		try {
 			FileWriter fw = new FileWriter("src/intro_to_file_io/test2.txt");
 			
+			/*
+			NOTE: To append to a file that already exists, add true as a second parameter when calling the
+			      FileWriter constructor.
+			      (e.g. FileWriter fw = new FileWriter("src/intro_to_file_io/test2.txt", true);)
+			*/
+			
 			fw.write("\nThis is me writing a message");
 				
 			fw.close();
